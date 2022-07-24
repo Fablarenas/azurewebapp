@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FabianArenas\\source\\repos\\AzureWebApp\\AzureWebApp\\AzureWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\FabianArenas\\Source\\Repos\\Fablarenas\\azurewebapp\\AzureWebApp\\AzureWebApp.csproj",
       "projectName": "AzureWebApp",
-      "projectPath": "C:\\Users\\FabianArenas\\source\\repos\\AzureWebApp\\AzureWebApp\\AzureWebApp.csproj",
+      "projectPath": "C:\\Users\\FabianArenas\\Source\\Repos\\Fablarenas\\azurewebapp\\AzureWebApp\\AzureWebApp.csproj",
       "packagesPath": "C:\\Users\\FabianArenas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FabianArenas\\source\\repos\\AzureWebApp\\AzureWebApp\\obj\\",
+      "outputPath": "C:\\Users\\FabianArenas\\Source\\Repos\\Fablarenas\\azurewebapp\\AzureWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FabianArenas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,7 +254,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

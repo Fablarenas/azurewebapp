@@ -34,6 +34,7 @@ namespace AzureWebApp.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+            System.Diagnostics.Trace.TraceError("peticion");
         }
     }
 }

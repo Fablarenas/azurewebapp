@@ -26,6 +26,8 @@ namespace AzureWebApp.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            System.Diagnostics.Trace.TraceInformation("peticion");
+            System.Diagnostics.Trace.TraceWarning("peticion");
             System.Diagnostics.Trace.TraceError("peticion");
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast

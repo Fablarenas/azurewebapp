@@ -26,6 +26,7 @@ namespace AzureWebApp.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            System.Diagnostics.Trace.TraceError("peticion");
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
@@ -34,7 +35,6 @@ namespace AzureWebApp.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
-            System.Diagnostics.Trace.TraceError("peticion");
         }
     }
 }
